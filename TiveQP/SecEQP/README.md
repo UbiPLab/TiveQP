@@ -1,6 +1,6 @@
 # SecEQP
 1. Open the project with **idea**
-2. Configure the parameters in *Parameter/PBTree_parameters.java*
+2. Configure the parameters in *Parameter/Parameter.java*
 
    Modify the *fileName* to your local data position
    
