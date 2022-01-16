@@ -7,8 +7,8 @@ public class LocationCoding {
     //  3km  17 9
     //  2km  25 11
     //  1km  50 12
-    public final int time = 13;
-    public final int bitsize = 8;
+    public final int time = TiveQP_parameters.time;
+    public final int bitsize = TiveQP_parameters.bitsize;
 
     public String[] addCityNumber(String city_name,String[] encode){
         int CityIndex = City.getCityIndex(city_name);
