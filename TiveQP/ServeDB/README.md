@@ -1,6 +1,6 @@
 # ServeDB
 1. Open the project with **idea**
-2. Configure the parameters in *Parameter/PBTree_parameters*
+2. Configure the parameters in *Parameter/ServeDB_parameters*
 
    Modify the *fileName* to your local data position
    
