@@ -18,7 +18,7 @@ import static ReadFileData.ReadFiledata.readArray_String;
 
 public class Test {
     public static void main(String[] args) throws Exception {
-        String fileName ="C:\\Users\\CYF\\Desktop\\Test\\2w.txt";
+        String fileName ="TiveQP_parameters.fileName";
 
         String[][] dataSet = readArray_String(fileName);
 
