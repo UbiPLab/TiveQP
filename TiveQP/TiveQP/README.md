@@ -1,6 +1,6 @@
 # TiveQP
 1. Open the project with **idea**
-2. Configure the parameters in *Parameter/TiveQP_parameters*
+2. Configure the parameters in *Parameter/TiveQP_parameters.java*
 
    Modify the *fileName* to your local data position
    
