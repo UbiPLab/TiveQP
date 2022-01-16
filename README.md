@@ -21,6 +21,8 @@ Time-Restricted, Verifiable, and Efficient Query Processing over Encrypted Data 
    
    for example *Restaurants\*\*ATLANTA\*\*33.7460355\*\*-84.370798\*\*7\*\*0\*\*20\*\*0*
 
+   We provide a converted data file **2w_random.txt**
+   
 ---
 
 ## Running with the sample codes
