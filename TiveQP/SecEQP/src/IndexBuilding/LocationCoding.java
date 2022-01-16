@@ -1,5 +1,5 @@
 package IndexBuilding;
-import Parameter.Parameters
+import Parameter.Parameter
 
 public class LocationCoding {
     //  5km  10 7
