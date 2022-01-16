@@ -1,6 +1,6 @@
 # ServeDB
 1. Open the project with **idea**
-2. Configure the parameters in *Parameter/ServeDB_parameters*
+2. Configure the parameters in *Parameter/ServeDB_parameters.java*
 
    Modify the *fileName* to your local data position
    
