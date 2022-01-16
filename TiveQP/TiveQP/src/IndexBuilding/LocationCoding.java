@@ -1,5 +1,5 @@
 package IndexBuilding;
-
+import Parameter.TiveQP_parameters;
 
 public class LocationCoding {
     //  5km  10 7
