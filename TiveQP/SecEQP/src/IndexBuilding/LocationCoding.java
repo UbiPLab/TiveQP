@@ -1,5 +1,5 @@
 package IndexBuilding;
-
+import Parameter.Parameters
 
 public class LocationCoding {
     //  5km  10 7
@@ -7,8 +7,8 @@ public class LocationCoding {
     //  3km  17 9
     //  2km  25 11
     //  1km  50 12
-    public final int time = 50;
-    public final int bitsize = 12;
+    public final int time = Parameter.time;
+    public final int bitsize = Parameter.bnitsize;
     public int d = 3;   //  维度
 
 
