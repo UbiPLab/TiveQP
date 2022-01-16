@@ -2,6 +2,7 @@ package TiveTree;
 
 import IndexBuilding.IndexElementEncoding;
 import IndexBuilding.Owner;
+import Parameter.TiveQP_parameters;
 import ReadFileData.ReadFiledata;
 
 import java.math.BigInteger;
