@@ -10,7 +10,7 @@ import java.sql.Time;
 import java.util.*;
 
 public class Construction {
-    public String path = "E:\\TiveQPCACHE\\";
+    public String path = TiveQP_parameters.treeStorePath;
 //    public String path = "C:\\E\\8\\";
     public int round = 0;
 
