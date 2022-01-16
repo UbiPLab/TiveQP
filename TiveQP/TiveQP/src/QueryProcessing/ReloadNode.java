@@ -12,7 +12,7 @@ import static QueryProcessing.Cloud_Query.toByteArray;
 import static QueryProcessing.ReLoadTree.addBytes;
 
 public class ReloadNode {
-    public String path = "C:\\Users\\CYF\\Desktop\\Test\\Cache\\";
+    public String path = TiveQP_parameters.treeStorePath;
 //    public String path = "F:\\TiveQP\\Node_10w_1km_Query\\";
     //  Node_2w_1km_Query
     public int round = 0;
