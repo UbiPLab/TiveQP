@@ -2,8 +2,8 @@ package Parameter;
 
 public interface RTree_parameters {
 
-    String fileName="C:\\Users\\CYF\\Desktop\\Test\\2w_random.txt";
-    String treeStorePath = "C:\\Users\\CYF\\Desktop\\Test\\Cache";
+    String fileName ="./2w_random.txt";
+    String treeStorePath="./Cache/";
 
     //  5km  10 7
     //  4km  13 8
