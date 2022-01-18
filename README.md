@@ -5,6 +5,10 @@ Time-Restricted, Verifiable, and Efficient Query Processing over Encrypted Data 
 
 ## Preparing
 
+***We have provided the processed data in each scheme project, named '2w.txt' and '2w
+_random.txt'***
+
+
 ### Data Downloading
 
    Download the Yelp dataset from [Yelp](https://www.yelp.com/dataset)
