@@ -2,7 +2,7 @@
 1. Open the project with **idea**
 2. Configure the parameters in *Parameter/RTree_parameters.java*
 
-   Modify the *fileName* to your local data position
+   Modify the *fileName* to your local data path
    
     ```java
     String fileName ={Your_dir/Your_data};
