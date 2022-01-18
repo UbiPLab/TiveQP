@@ -1,6 +1,6 @@
 # SecEQP
 1. Open the project with **idea**
-2. Configure the parameters in *Parameter/Parameter.java*
+2. Configure the parameters in *Parameter/SecEQP_parameters.java*
 
    Modify the *fileName* to your local data position
    
