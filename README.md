@@ -31,8 +31,6 @@ _random.txt'***
 
 ## Running with the sample codes
 
-   We also implemented some other methods.
-
 ### IBFTree
 [IBFTree](https://github.com/UbiPLab/TiveQP/blob/main/TiveQP/IBFTree/README.md)
 ### PBTree
