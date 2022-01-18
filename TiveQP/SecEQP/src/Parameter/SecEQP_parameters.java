@@ -1,7 +1,7 @@
 package Parameter;
 
-public interface Parameter {
-    String fileName ="./2w_random.txt";
+public interface SecEQP_parameters {
+    String fileName ="./Data/20k_random.txt";
     String treeStorePath="./Cache/";
     //  5km  10 7
     //  4km  13 8
