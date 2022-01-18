@@ -5,8 +5,7 @@ Time-Restricted, Verifiable, and Efficient Query Processing over Encrypted Data 
 
 ## Preparing
 
-***We have provided the processed data in each scheme project, named '20k.txt' and '20k
-_random.txt'***
+***We have provided the processed data in each scheme project***
 
 
 ### Data Downloading
