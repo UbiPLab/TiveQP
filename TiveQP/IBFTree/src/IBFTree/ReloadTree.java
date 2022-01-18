@@ -2,13 +2,13 @@ package IBFTree;
 
 import IndexBuilding.Owner;
 import ReadFileData.ReadFiledata;
-
+import Path.IBFTree_parameters;
 import java.math.BigInteger;
 
 public class ReloadTree {
 
 
-        public String path = "F:\\TiveQP\\IBFTree\\2w_5km\\";
+        public String path = IBFTree_parameters.treeStorePath;
         public int round = 0;
 
 
