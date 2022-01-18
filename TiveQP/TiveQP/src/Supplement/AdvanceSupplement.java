@@ -12,6 +12,7 @@ import Supplement.Trapdoor.Trap;
 import Supplement.Verify.V_Completeness;
 import Supplement.Verify.V_Correctness;
 import TiveTree.Construction;
+import Parameter.TiveQP_parameters;
 import com.carrotsearch.sizeof.RamUsageEstimator;
 
 import java.util.ArrayList;
@@ -21,7 +22,7 @@ import static ReadFileData.ReadFiledata.readArray_String;
 
 public class AdvanceSupplement {
     public static void main(String[] args) throws Exception {
-        String fileName ="E:\\Gao\\0TiveQP\\DataSet\\Type\\2w_random.txt";
+        String fileName =TiveQP_parameters.treeStorePath;
 
         String[][] dataSet = readArray_String(fileName);
 
@@ -43,17 +44,17 @@ public class AdvanceSupplement {
 
         System.out.println();
         System.out.println("TiveTreeConstruction:");
-        System.out.println("建树：");
+        System.out.println("Tree construction：");
 
-        //  建树
+        // Tree construction
         long c_start = System.currentTimeMillis();
 //        TreeCon.TiveTreeNode root = new Reload().BuildTree(dataSet);
         TreeCon.TiveTreeNode root = new TreeCon().BuildTree(dataSet);
         long c_end = System.currentTimeMillis();
-        System.out.println("建树 ok : "+(c_end-c_start));
+        System.out.println("Tree construction ok : "+(c_end-c_start));
 //        System.out.println(RamUsageEstimator.sizeOf(root));
 
-        //  初始化节点
+        //  init
         List<Long> sizeofCS = new ArrayList<>();
 
 //        long time = new Reload().initNode(root,ibf_length,Keylist,randNumber,sizeofCS);
@@ -69,8 +70,8 @@ public class AdvanceSupplement {
         System.out.println(init_end - c_end);
         System.out.println(time);
         long all_size = RamUsageEstimator.sizeOf(root);
-        System.out.println("总大小:"+ all_size);
-        System.out.println("树大小:" + (all_size-size));
+        System.out.println("total size:"+ all_size);
+        System.out.println("tree size:" + (all_size-size));
 //
         System.out.println(root.address);
 
@@ -155,9 +156,9 @@ public class AdvanceSupplement {
                 List<Long> time_proof = new ArrayList<>();
                 List<byte[]> HV_list = new ArrayList<>();
                 List<Double> list_height = new ArrayList<>();
-                System.out.println("开始 查询");
+                System.out.println("Query start");
                 new Query().Query_Tree(root,  T2, T3, ibf_length, randNumber, proof_tree_list, proof_subTree_list, result, proof_unns,HV_list,list_height,time_query, time_proof, num_k[2]);
-                System.out.println("查询结束");
+                System.out.println("Query end");
                 long ttt_f = 0;
                 for (long r : time_proof) {
                     ttt_f = ttt_f + r;
@@ -172,7 +173,7 @@ public class AdvanceSupplement {
 //                System.out.println("time_proof = " + ttt_f);
 
                 System.out.println("Verification :");
-                System.out.println("满足条件个数："+result.size());
+                System.out.println("Result number："+result.size());
 
 //            for (Cloud_Query.Proof_Tree proof:proof_tree_list) {
 //                proof.showProof();
@@ -197,7 +198,7 @@ public class AdvanceSupplement {
                 row_vrifiy = v_end - v_start + row_vrifiy;
                 System.out.println("time_query = " + (ttt - ttt_f));
                 System.out.println("time_proof = " + ttt_f);
-                System.out.println("Verification 时间: " + (v_end - v_start));
+                System.out.println("Verification time: " + (v_end - v_start));
                 System.out.println("proof size ：");
 //                System.out.println( RamUsageEstimator.sizeOf(proof_subTree_list)+RamUsageEstimator.sizeOf(proof_tree_list) - bits*32*5 + bits/8);
                 int bits = Query.bit_num(proof_subTree_list,proof_tree_list);
