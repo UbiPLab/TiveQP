@@ -5,7 +5,7 @@ import java.math.BigInteger;
 public class ReloadTree {
 
 
-        public String path = "F:\\TiveQP\\SecEQP\\6w_1km\\";
+        public String path = Parameter.treeStorePath;
         public int round = 0;
 
 
