@@ -2,6 +2,7 @@ package Supplement.BulidTree;
 
 import IndexBuilding.IndexElementEncoding;
 import IndexBuilding.Owner;
+import Parameter.TiveQP_parameters;
 import ReadFileData.ReadFiledata;
 
 import java.math.BigInteger;
@@ -11,7 +12,7 @@ import java.util.Queue;
 import java.util.Stack;
 
 public class TreeCon {
-    public String path = "F:\\TiveQP\\Supplement\\2w_4km\\";
+    public String path = TiveQP_parameters.treeStorePath;
 //    public String path = "F:\\TiveQP\\Supplement\\1k\\";
     //    public String path = "C:\\E\\8\\";
     public int round = 0;
