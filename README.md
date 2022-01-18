@@ -5,7 +5,7 @@ Time-Restricted, Verifiable, and Efficient Query Processing over Encrypted Data 
 
 ## Preparing
 
-***We have provided the processed data in each scheme project***
+***We have provided the processed data in each scheme directory***
 
 
 ### Data Downloading
