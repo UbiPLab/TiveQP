@@ -2,6 +2,9 @@
 1. Open the project with **idea**
 2. Configure the parameters in *Parameter/TiveQP_parameters.java*
 
+   The data TiveQP uses is classified by type
+   
+   
    Modify the *fileName* to your local data position
    
     ```java
