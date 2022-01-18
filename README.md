@@ -16,7 +16,7 @@ _random.txt'***
 ### Data Convertion
    The raw data of Yelp dataset are JSON files, we choose **yelp_academic_dataset_business.json** for the experiment. 
 
-   Run the convertion script extract written in Python3 to extract *city,latitude,longitude,categories,hours* from the JSON file. Befor running the convertion script , please modify the **path** in the script. The output data is 
+   Run the convertion script **ProcessYelpDataset.py** written in Python3 to extract *city,latitude,longitude,categories,hours* from the JSON file. Befor running the convertion script , please modify the **path** in the script. The output data is 
 
    **{path}/target.txt**
    
