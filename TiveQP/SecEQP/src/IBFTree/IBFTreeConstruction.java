@@ -1,14 +1,14 @@
 package IBFTree;
 
 import IndexBuilding.Owner;
-import Parameter.Parameter;
+import Parameter.SecEQP_parameters;
 import ReadFileData.ReadFiledata;
 
 import java.math.BigInteger;
 
 public class IBFTreeConstruction {
 
-    public String path = Parameter.treeStorePath;
+    public String path = SecEQP_parameters.treeStorePath;
     public int round = 0;
     
     public static class IBFNode{
