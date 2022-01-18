@@ -5,13 +5,13 @@
    The data TiveQP uses is classified by type
    
    
-   Modify the *fileName* to your local data position
+   Modify the *fileName* to your local data path
    
     ```java
     String fileName ={Your_dir/Your_data};
     ```
     
-    Modify the *treeStorePath* to your local cache position
+    Modify the *treeStorePath* to your local cache path
     
     ```java
     String treeStorePath={Your_cache_dir};
