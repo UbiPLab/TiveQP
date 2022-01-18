@@ -8,7 +8,7 @@ public class LocationCoding {
     //  2km  25 11
     //  1km  50 12
     public final int time = Parameter.time;
-    public final int bitsize = Parameter.bnitsize;
+    public final int bitsize = Parameter.bitsize;
     public int d = 3;   //  维度
 
 
