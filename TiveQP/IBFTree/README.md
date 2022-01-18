@@ -8,10 +8,10 @@
     String fileName ={Your_dir/Your_data};
     ```
     
-    Modify the *tempPath* to your local cache position
+    Modify the *treeStorePath* to your local cache position
     
     ```java
-    String tempPath={Your_cache_dir};
+    String treeStorePath={Your_cache_dir};
     ```
     
     You can also change the *cellSize* by modifying *time* and *bitsize* according to the table
