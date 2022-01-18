@@ -1,8 +1,8 @@
 package Parameter;
 
 public interface ServerDB_parameters {
-    String fileName ="C:\\Users\\CYF\\Desktop\\Test\\2w.txt";
-    String treeStorePath = "C:\\Users\\CYF\\Desktop\\Test\\Cache\\";
+    String fileName ="./2w_random.txt";
+    String treeStorePath="./Cache/";
 
     //  5km  8  3   4
     //  4km  16 4   6
