@@ -24,8 +24,6 @@ _random.txt'***
    *categories\*\*city\*\*latitude\*\*longitude\*\*hour_of_opening_time\*\*minute_of_opening_time\*\*hour_of_closing_time\*\*minute_of_closing_time*
    
    for example *Restaurants\*\*ATLANTA\*\*33.7460355\*\*-84.370798\*\*7\*\*0\*\*20\*\*0*
-
-   We provide a converted data file **2w_random.txt**
    
 ---
 
