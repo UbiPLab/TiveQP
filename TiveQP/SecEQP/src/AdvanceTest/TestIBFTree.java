@@ -1,7 +1,7 @@
 package AdvanceTest;
 
 import IBFTree.IBFTreeConstruction;
-import Parameter.Parameter;
+import Parameter.SecEQP_parameters;
 import QueryProcessing.Cloud_Query;
 import QueryProcessing.TrapdoorCompute;
 import com.carrotsearch.sizeof.RamUsageEstimator;
@@ -14,7 +14,7 @@ import static ReadFileData.ReadFiledata.readArray_String;
 public class TestIBFTree {
     public static void main(String[] args) throws Exception {
 
-        String fileName = Parameter.fileName;
+        String fileName = SecEQP_parameters.fileName;
 
         String[][] dataSet = readArray_String(fileName);
 
