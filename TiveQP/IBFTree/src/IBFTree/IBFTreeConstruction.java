@@ -8,7 +8,7 @@ import java.math.BigInteger;
 
 public class IBFTreeConstruction {
 
-    public String path = IBFTree_parameters.tempPath;
+    public String path = IBFTree_parameters.treeStorePath;
     public int round = 0;
     
     public static class IBFNode{
