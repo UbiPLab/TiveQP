@@ -1,8 +1,8 @@
 package Parameter;
 
 public interface IBFTree_parameters {
-    String fileName ="C:\\Users\\CYF\\Desktop\\Test\\2w_random.txt";
-    String tempPath="C:\\Users\\CYF\\Desktop\\Test\\temp";
+    String fileName ="./2w_random.txt";
+    String treeStorePath="./Cache/";
     //  5km  10 7
     //  4km  13 8
     //  3km  17 9
