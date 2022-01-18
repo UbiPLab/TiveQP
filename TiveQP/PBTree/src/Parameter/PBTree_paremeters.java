@@ -1,8 +1,8 @@
 package Parameter;
 
 public interface PBTree_paremeters {
-    public String fileName="C:\\Users\\CYF\\Desktop\\Test\\2w_random.txt";
-    public String treeStorePath = "C:\\Users\\CYF\\Desktop\\Test\\PBTree";
+    String fileName ="./2w_random.txt";
+    String treeStorePath="./Cache/";
 
     //  5km  10 7
     //  4km  13 8
