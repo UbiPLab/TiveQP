@@ -37,7 +37,7 @@ Time-Restricted, Verifiable, and Efficient Query Processing over Encrypted Data 
 ### ServeDB
 [ServeDB](https://github.com/UbiPLab/TiveQP/blob/main/TiveQP/ServeDB/README.md)
 ### RTree
-[RTree](https://github.com/UbiPLab/TiveQP/blob/main/TiveQP/ServeDB/README.md)
+[RTree](https://github.com/UbiPLab/TiveQP/blob/main/TiveQP/RTree/README.md)
 ### TiveQP
 [TiveQP](https://github.com/UbiPLab/TiveQP/blob/main/TiveQP/TiveQP/README.md)
 ### TiveQP_No_Type
